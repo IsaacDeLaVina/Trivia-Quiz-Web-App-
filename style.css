@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #242333;
+    color: white;
+}
+
+
+
+#answer-buttons .btn{
+    background-color:#ffc107;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#answer-buttons .btn:hover{
+    box-shadow: 0 5px 16px white;
+}
+
+.quiz-app #next-btn{
+    background-color: #ffc107;
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.quiz-app #question{
+    margin-top: 3rem;
+}
+.app #next-btn:hover{
+    box-shadow: 0 5px 16px white;
+}
+
+
+
+.card-img-top{
+    width: 9rem;
+}
+
+.card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-title{
+    margin-top: 10px;
+}
+footer{
+    margin-top: 30px;
+}
+
+nav li{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.card a:hover{
+    box-shadow: 0 5px 16px white;
+}
+
+.quiz-app #next-btn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+ }
+#Disclaimer-Text{
+    margin-top: 5rem;
+}
+
+#answer-buttons .btn{
+   display: block;
+   margin: 0 auto;
+   margin-top: 1.5rem;
+}
+
+/* About Us Section */
+#About-Us-Img{
+    width: 39rem;
+}
+
+#About-Us-Text{
+    font-weight: 400;
+}
+
+
+
+@media only screen and (max-width: 320px){
+    #About-Us-Img{
+        width: 25rem;
+      
+    }
+
+    #About-Us{
+        text-align: center;
+    }
+
+    #About-Us-Text{
+        position: relative;
+        left: 2rem;
+        font-size: larger;
+    }
+
+    .quiz-app #next-btn{
+        font-size: 1.3rem;
+     }
+
+ 
+}
+
+
+
+
+/* Small Devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+    #About-Us-Img{
+        width: 25rem;
+        margin-left: -1rem;
+    }
+
+    #About-Us{
+        text-align: center;
+    }
+
+   
+    #About-Us-Text{
+        margin-left: 1rem;
+        font-size: larger;
+    }
+
+    .quiz-app #next-btn{
+        font-size: 1.3rem;
+     }
+
+}
+
+
+/*Tablet Devices */
+@media only screen and (min-width: 768px){
+    #Social-Media i{
+        font-size: 1.6rem;
+    }
+    #About-Us-Img{
+        margin-left: 20px;
+    }
+    #Disclaimer-Text{
+        inline-size: 50rem;
+        overflow-wrap: break-word;
+        margin-top: 8rem;
+    }
+    .quiz-app #next-btn{
+        font-size: 1.4rem;
+     }
+
+     #answer-buttons .btn{
+        font-size: 1.3rem;
+        top: 5rem;
+    }
+
+}
+/* Laptops and Desktops */
+@media only screen and (min-width: 1440px){
+    .card{
+        width: 60rem;
+        margin-left: 10rem;
+    }
+
+    #Social-Media i{
+        font-size: 2rem;
+    }
+
+    .App{
+        position: relative;
+        top: 4rem;
+    }
+    .quiz-app #next-btn{
+        font-size: 1.5rem;
+     }
+
+     #answer-buttons .btn{
+        font-size: 1.5rem;
+        top: 5rem;
+    }
+
+}
+
+@media only screen and (min-width: 2000px){
+    #About-Us-Img{
+        width: 50rem;
+    }
+    #About-Us-Text{
+        font-size: 1.4rem;
+    }
+    #Contact{
+        font-size: 1.5rem;
+        
+    }
+    #Disclaimer-Text{
+        font-size: 2rem;
+        inline-size: 70rem;
+        overflow-wrap: break-word;
+        margin-top: 14rem;
+    }
+    #Disclaimer-Title{
+        font-size: 3rem;
+    }
+    .quiz-app h1{
+        font-size: 5rem;
+    }
+
+    .quiz-app #question{
+        font-size: 3rem;
+    }
+    #answer-buttons .btn{
+        font-size: 2rem;
+        top: 5rem;
+    }
+    .quiz-app #next-btn{
+        font-size: 2.9rem;
+     }
+     #answer-buttons .btn{
+        font-size: 3rem;
+        top: 5rem;
+    }
+
+}
